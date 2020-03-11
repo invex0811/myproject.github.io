@@ -1,0 +1,88 @@
+.team {
+  background: #ebebeb;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .team .team-logo {
+    color: #7d7d7d;
+    display: flex;
+    align-items: center;
+    margin-top: 80px; }
+    .team .team-logo h1 {
+      font-size: 36px;
+      font-family: sans-serif;
+      margin: 0 40px; }
+    .team .team-logo .white-line {
+      width: 140px;
+      height: 3px;
+      background: #c7c7c7; }
+  .team span {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #7d7d7d;
+    line-height: 30px; }
+  .team .slider {
+    display: flex;
+    margin-top: 40px;
+    color: #7d7d7d; }
+    .team .slider p {
+      font-weight: bold;
+      margin-left: 10px; }
+    .team .slider span {
+      margin-left: 10px; }
+  .team .btn-slider {
+    margin: 30px 0; }
+    .team .btn-slider button {
+      border-radius: 50%;
+      height: 12px;
+      border: none;
+      background: #979797;
+      outline: none;
+      cursor: pointer; }
+    .team .btn-slider .active {
+      background: #8f33c4; }
+  .team .wrap-information {
+    width: 55%;
+    display: flex; }
+    .team .wrap-information .information {
+      background: white;
+      margin: 0 10px 20px; }
+      .team .wrap-information .information button {
+        border: none;
+        background: #8f33c4;
+        color: white;
+        width: 30px;
+        height: 30px;
+        cursor: pointer; }
+      .team .wrap-information .information h2 {
+        font-weight: bold;
+        font-size: 30px;
+        padding: 30px 50px 20px 50px; }
+      .team .wrap-information .information p {
+        font-weight: bold;
+        font-size: 14px;
+        color: #8f33c4;
+        line-height: 25px;
+        padding: 0 50px 100px 50px; }
+        .team .wrap-information .information p span {
+          font-size: 12px;
+          line-height: 22px; }
+  .team .bot-information {
+    width: 54%;
+    background: white;
+    margin-bottom: 30px; }
+    .team .bot-information h2 {
+      font-weight: bold;
+      font-size: 30px;
+      padding: 70px 50px 20px 50px; }
+    .team .bot-information p {
+      font-weight: bold;
+      font-size: 14px;
+      color: #8f33c4;
+      line-height: 25px;
+      padding: 0 50px 70px 50px; }
+      .team .bot-information p span {
+        font-size: 12px;
+        line-height: 22px; }
+
+/*# sourceMappingURL=team.css.map */

@@ -1,0 +1,40 @@
+.map-position {
+  background: #2d2d2d;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .map-position h1 {
+    color: white;
+    font-size: 36px;
+    font-family: sans-serif;
+    margin-top: 50px; }
+  .map-position span {
+    color: #6017a3;
+    font-size: 16px;
+    margin-bottom: 20px; }
+  .map-position .icons {
+    display: flex;
+    align-items: center; }
+    .map-position .icons .line-icon {
+      width: 140px;
+      height: 3px;
+      background: #6d6d6d;
+      margin: 0 50px; }
+  .map-position .icon-info-wrap {
+    display: flex;
+    color: #ffffff;
+    font-family: sans-serif;
+    margin-top: 50px; }
+    .map-position .icon-info-wrap .icon-info {
+      display: flex;
+      flex-direction: column;
+      line-height: 22px;
+      width: 300px; }
+      .map-position .icon-info-wrap .icon-info h2 {
+        font-size: 24px; }
+      .map-position .icon-info-wrap .icon-info p {
+        font-size: 12px; }
+  .map-position .icon-info:nth-child(2) {
+    margin: 0 30px; }
+
+/*# sourceMappingURL=map-position.css.map */

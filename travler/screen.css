@@ -1,0 +1,19 @@
+.screen {
+  background: #1C1C1C; }
+  .screen .screen-background {
+    height: 525px;
+    background: url("image/screen-bg.jpg") center bottom no-repeat;
+    font-family: sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    line-height: 40px; }
+    .screen .screen-background h1 {
+      font-size: 36px; }
+    .screen .screen-background span {
+      font-size: 14px;
+      margin-bottom: 80px; }
+
+/*# sourceMappingURL=screen.css.map */

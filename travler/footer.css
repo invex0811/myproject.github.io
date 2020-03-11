@@ -1,0 +1,74 @@
+.footer {
+  background: #373737; }
+  .footer .footer-block {
+    width: 54%;
+    margin: 0 auto;
+    padding-top: 25px; }
+    .footer .footer-block .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .footer .footer-block .navbar .logo {
+        display: flex;
+        height: 100%; }
+        .footer .footer-block .navbar .logo h1 {
+          font-size: 39px;
+          font-family: Nexa;
+          color: white; }
+        .footer .footer-block .navbar .logo span {
+          font-size: 12px;
+          font-style: italic;
+          color: #7d7d7d; }
+      .footer .footer-block .navbar .nav {
+        display: flex;
+        align-items: center; }
+        .footer .footer-block .navbar .nav a {
+          text-decoration: none;
+          color: white;
+          padding: 15px 15px;
+          font-size: 12px; }
+        .footer .footer-block .navbar .nav a:last-child {
+          padding-right: 0; }
+        .footer .footer-block .navbar .nav .vertical-line-nav {
+          width: 1px;
+          height: 10px;
+          background: #7d7d7d; }
+    .footer .footer-block .info-social {
+      display: flex;
+      color: white;
+      font-size: 12px;
+      margin-top: 40px; }
+      .footer .footer-block .info-social .info {
+        width: 55%; }
+      .footer .footer-block .info-social .social {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        font-family: sans-serif;
+        font-weight: bold; }
+        .footer .footer-block .info-social .social i {
+          font-size: 10px;
+          margin-right: 5px;
+          margin-left: 30px; }
+        .footer .footer-block .info-social .social img {
+          margin-left: 30px; }
+        .footer .footer-block .info-social .social .material-icons {
+          height: 10px; }
+    .footer .footer-block ul {
+      display: flex;
+      margin-top: 40px; }
+      .footer .footer-block ul li {
+        margin-right: 15px; }
+        .footer .footer-block ul li a {
+          text-decoration: none;
+          color: white;
+          font-size: 12px; }
+    .footer .footer-block p {
+      font-size: 11px;
+      font-family: sans-serif;
+      line-height: 15px;
+      margin-top: 25px;
+      color: #7d7d7d;
+      padding-bottom: 245px; }
+
+/*# sourceMappingURL=footer.css.map */

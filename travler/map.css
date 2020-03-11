@@ -1,0 +1,17 @@
+.map {
+  height: 550px;
+  background: url("image/mapBackground.jpg") center top no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .map .logo-white {
+    width: 120px;
+    height: 120px;
+    background: #451a4a;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+/*# sourceMappingURL=map.css.map */
