@@ -1,0 +1,126 @@
+@media screen and (max-width: 1050px){
+    .container{
+        padding: 0 10px;
+    }
+    .row-img-program{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .row-img-program img{
+        margin: 10px;
+    }
+}
+@media screen and (max-width: 760px){
+   
+    .menu{
+        display: none;
+    }
+    .menu li{
+        margin: 0;
+        padding: 5px 0;
+    }
+    .menu a{
+        font-size: 20px;
+    }
+    .menu a:hover{
+        border: none;
+        padding-bottom: 0;
+
+    }
+    nav{
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        height: auto;
+    }
+    .header::before{
+        display: none;
+    }
+    .row-services{
+        flex-direction: column;
+        align-items: center;
+    }
+    .services-block{
+        margin: 10px 0;
+    }
+    .text-services-block{
+        margin: 0;
+    }
+    .top-about-content{
+        flex-direction: column;
+    }
+    .heading-about{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 520px){
+    .subtitle{
+        text-align: center;
+    }
+    .top-content{
+        flex-direction: column;
+    }
+    .heading-all-services{
+        text-align: center;
+    }
+    .design-team-row{
+        flex-direction: column;
+    }
+    .design-team{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .design-team a{
+        margin-bottom: 10px;
+    }
+    .paragraf-subscribe{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 500px){
+    .form-subscribe{
+        width: 100%;
+        height: auto;
+        padding: 0;
+        flex-direction: column;
+        border: none;
+        box-shadow: none;
+        align-items: center;
+        
+    }
+    .heading-subscribe, .span-subscribe{
+        text-align: center;
+    }
+    .form-subscribe input[type=email]{
+        border: 1px solid #F2F2F2;
+        box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+        width: 70%;
+        border-radius: 30px;
+        height: 45px;
+        margin-bottom: 20px;
+    }
+    .form-subscribe input[type=submit]{
+        height: 45px;
+        width: 200px;
+        border-radius: 30px;
+    }
+    .footer{
+        padding: 0;
+        padding-bottom: 30px;
+    }
+    .footer-content{
+        display: none;
+    }
+    .line-footer{
+        margin-top: 0;
+    }
+}
+@media screen and (max-width: 416px){
+    .bot-about-content{
+        flex-wrap: wrap;
+    }
+    .our-project-block:last-child, .our-project-block:nth-child(4){
+        margin-top: 20px;
+    }
+}
